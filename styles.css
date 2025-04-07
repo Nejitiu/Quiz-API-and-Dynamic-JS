@@ -1,0 +1,104 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cccccc;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.topnav div {
+  color: #000000;
+  text-align: center;
+  padding: 8px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+.content {
+  width: 1471px;
+  height: 1567px;
+  position: relative;
+  top: 70px;
+}
+
+
+.content p {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+.content h1 {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.marketplace {
+  width: 25%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.marketplace h2 {
+  margin-top: 0;
+  font-size: 30px;
+  font-family: Times New Roman, sans-serif;
+  padding-bottom: 10px;
+}
+
+#market-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  background-color: #e0e0e0;
+  padding: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: left;
+  display: block;
+}
+
+.item span {
+  display: block;
+  font-weight: normal;
+  margin-top: 4px;
+}
